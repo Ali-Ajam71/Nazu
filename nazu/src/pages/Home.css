@@ -1,0 +1,108 @@
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(180deg, rgba(0, 180, 216, 0.1) 0%, transparent 100%);
+}
+
+.hero h1 {
+  font-size: 52px;
+  margin-bottom: 16px;
+  background: linear-gradient(135deg, #00b4d8, #00d9ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #8b949e;
+  margin-bottom: 30px;
+}
+
+.hero-btn {
+  display: inline-block;
+  background: linear-gradient(135deg, #00b4d8, #00d9ff);
+  color: #0d1117;
+  padding: 12px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 180, 216, 0.4);
+}
+
+.info-section {
+  padding: 60px 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info-section h2 {
+  font-size: 32px;
+  color: #00b4d8;
+  margin-bottom: 16px;
+}
+
+.info-section > p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #c9d1d9;
+  margin-bottom: 40px;
+}
+
+/* Three feature cards side by side */
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: rgba(0, 180, 216, 0.05);
+  border: 1px solid rgba(0, 180, 216, 0.2);
+  border-radius: 8px;
+  padding: 30px 20px;
+  flex: 1;
+  min-width: 200px;
+  max-width: 280px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  background-color: rgba(0, 180, 216, 0.1);
+  transform: translateY(-4px);
+}
+
+.card h3 {
+  font-size: 18px;
+  color: #00b4d8;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #8b949e;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 100%;
+  }
+}

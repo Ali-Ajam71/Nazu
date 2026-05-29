@@ -1,0 +1,32 @@
+/* Global Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0d1117 0%, #1a1f26 100%);
+  color: white;
+  min-height: 100vh;
+}
+
+/* Reusable page wrapper */
+.page {
+  padding: 60px 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.page h1 {
+  font-size: 36px;
+  color: #00b4d8;
+  margin-bottom: 20px;
+}
+
+.page p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #c9d1d9;
+}
