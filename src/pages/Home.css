@@ -55,8 +55,6 @@
   color: #c9d1d9;
   margin-bottom: 40px;
 }
-
-/* Three feature cards side by side */
 .cards {
   display: flex;
   gap: 20px;
