@@ -1,7 +1,6 @@
 import React from 'react';
 import './Services.css';
 
-// Each service is stored in an array so we can loop through them
 const servicesList = [
   {
     id: 1,
@@ -35,7 +34,6 @@ function Services() {
       <h1>Our Services</h1>
       <p>We offer a range of cybersecurity solutions tailored for small and medium businesses.</p>
 
-      {/* Loop through the services array and render a card for each one */}
       <div className="services-list">
         {servicesList.map((service) => (
           <div key={service.id} className="service-card">
