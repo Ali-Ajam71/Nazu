@@ -39,7 +39,6 @@
   transform: translateY(-2px);
 }
 
-/* Hamburger button - hidden on desktop */
 .hamburger {
   display: none;
   background: none;
@@ -49,7 +48,6 @@
   cursor: pointer;
 }
 
-/* Mobile styles */
 @media (max-width: 768px) {
   .hamburger {
     display: block;
