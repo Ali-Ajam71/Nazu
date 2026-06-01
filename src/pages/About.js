@@ -13,9 +13,8 @@ function About() {
       <p style={{ marginTop: '16px' }}>
         We believe that every business, regardless of size, deserves enterprise-grade security
         solutions at affordable prices.
-      </p>
-
-      {/* Team / stats section */}
+      </p
+    
       <div className="about-stats">
         <div className="stat">
           <h2>5+</h2>
